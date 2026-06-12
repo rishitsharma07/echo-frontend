@@ -1,0 +1,2 @@
+/* EditPostPage reuses the shared editor styles from CreatePostPage.css */
+@import './CreatePostPage.css';

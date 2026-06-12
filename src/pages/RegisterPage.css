@@ -1,0 +1,2 @@
+/* RegisterPage reuses the shared auth styles from LoginPage.css */
+@import './LoginPage.css';

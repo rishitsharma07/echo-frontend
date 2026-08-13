@@ -24,7 +24,7 @@ export default function EditPostPage() {
         const post = response.data;
 
         // Verify ownership
-        if (user && post.authorId !== user.id && post.authorName !== user.username) {
+        if (user && String(post.authorId) !== String(user.id) && post.authorUsername !== user.username) {
           navigate('/', { replace: true });
           return;
         }
